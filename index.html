@@ -29,11 +29,11 @@
 
       <ul class="nav__menu" id="nav-menu">
         <li><a href="#servicos" class="nav__link">Serviços</a></li>
-        <li><a href="#sobre" class="nav__link">Experiência</a></li>
+        <li><a href="#sobre" class="nav__link">Quem Somos</a></li>
         <li><a href="#testemunhos" class="nav__link">Testemunhos</a></li>
         <li><a href="#contacto" class="nav__link">Contacto</a></li>
         <li>
-          <a href="#contacto" class="btn btn--nav">Agendar Consulta</a>
+          <a href="#contacto" class="btn btn--nav">Contactar</a>
         </li>
       </ul>
     </nav>
@@ -44,9 +44,10 @@
     <!-- Hero -->
     <section class="hero" id="hero">
       <div class="hero__slider" id="hero-slider">
-        <div class="hero__slide hero__slide--active" style="background-image: url('https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1920&q=80');"></div>
-        <div class="hero__slide" style="background-image: url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920&q=80');"></div>
-        <div class="hero__slide" style="background-image: url('https://images.unsplash.com/photo-1519824145375-8d843a40e3e5?w=1920&q=80');"></div>
+        <div class="hero__slide hero__slide--active" style="background-image: url('images/clinica1.jpg');"></div>
+        <div class="hero__slide" style="background-image: url('images/clinica2.jpg');"></div>
+        <div class="hero__slide" style="background-image: url('images/clinica3.jpg');"></div>
+        <div class="hero__slide" style="background-image: url('images/clinica4.jpg');"></div>
       </div>
       <div class="hero__overlay"></div>
 
@@ -57,13 +58,14 @@
           Onde a ciência encontra o cuidado personalizado.<br>
           Saúde de elite, bem-estar e reabilitação à sua medida.
         </p>
-        <a href="#contacto" class="btn btn--primary reveal">Agendar Consulta Privada</a>
+        <a href="#contacto" class="btn btn--primary reveal">Entrar em Contacto</a>
       </div>
 
       <div class="hero__indicators" id="hero-indicators" aria-hidden="true">
         <button class="hero__dot hero__dot--active" data-slide="0" aria-label="Slide 1"></button>
         <button class="hero__dot" data-slide="1" aria-label="Slide 2"></button>
         <button class="hero__dot" data-slide="2" aria-label="Slide 3"></button>
+        <button class="hero__dot" data-slide="3" aria-label="Slide 4"></button>
       </div>
 
       <a href="#servicos" class="hero__scroll" aria-label="Descer">
@@ -243,49 +245,48 @@
     <!-- About -->
     <section class="about section section--dark" id="sobre">
       <div class="container">
+        <header class="about__intro reveal">
+          <span class="section__eyebrow section__eyebrow--light">Quem Somos</span>
+          <h2 class="section__title section__title--light">O Nosso Espaço</h2>
+        </header>
+
         <div class="about__grid">
           <div class="about__image reveal">
             <div class="about__image-frame">
-              <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80" alt="Dra. Elsa Martins — Diretora Clínica" loading="lazy">
+              <img src="images/elsa.jpg" alt="Dra. Elsa Martins — Diretora Clínica" loading="lazy">
             </div>
             <div class="about__image-accent"></div>
           </div>
 
           <div class="about__content reveal">
-            <span class="section__eyebrow section__eyebrow--light">A Experiência</span>
-            <h2 class="section__title section__title--light">Um Espaço Pensado Para Si</h2>
-
-            <p class="about__lead">
-              Um refúgio de saúde, bem-estar e reabilitação física — onde cada
-              detalhe foi concebido para lhe proporcionar privacidade, conforto
-              e a atenção exclusiva que merece.
+            <p>
+              Um espaço de saúde onde diariamente trabalha uma equipa clínica inteiramente
+              focada e centrada no apoio e recuperação daquelas que são as necessidades
+              dos clientes que aos nossos serviços recorrem.
             </p>
 
             <p>
-              A nossa equipa clínica dedica-se integralmente à recuperação das
-              necessidades de cada utente, promovendo a re-educação física e
-              mental através de técnicas e métodos de tratamento de excelência.
-              Actuamos com rigor, profissionalismo e dedicação, num ambiente
-              acolhedor que inspira confiança.
+              Distingue-se pela personalização de tratamento, promovendo suporte individualizado
+              com a finalidade de uma consciente e completa reeducação física e mental.
+            </p>
+
+            <p>
+              Num ambiente familiar e acolhedor, encontrará profissionais eficientes que
+              diariamente trabalham para que a sua saúde conte.
+            </p>
+
+            <p class="about__lead">
+              Neste espaço, o seu nome é a história de uma vida, a qual será escutada com a
+              máxima importância. Profissionalismo, humanismo, confiança, eficácia, honestidade,
+              transparência, comunicação e simpatia são características que se vestem e se impõem
+              a cada um dos profissionais integrantes numa equipa inteiramente dedicada ao seu
+              bem-estar.
             </p>
 
             <blockquote class="about__quote">
-              «Faça da sua saúde a nossa prioridade. Cuide de si — visite-nos
-              e seja bem-vindo.»
+              «Faça da Sua Saúde a Nossa Prioridade.<br>
+              Cuide de Si, Visite-nos e seja Bem-vindo!»
             </blockquote>
-
-            <div class="about__director">
-              <h3 class="about__director-name">Dra. Elsa Martins</h3>
-              <span class="about__director-role">Diretora Clínica · Membro da Ordem dos Fisioterapeutas</span>
-              <p class="about__director-bio">
-                Com uma carreira iniciada em 2007 e experiência internacional na
-                Inglaterra, a Dra. Elsa Martins traz uma visão global e inovadora
-                à fisioterapia. Formada em Fisioterapia, Personal Training,
-                Fitness e Pilates Clínico, fundou a sua clínica em 2020 e dedica-se
-                também à formação de profissionais, elevando os padrões da
-                fisioterapia em Portugal.
-              </p>
-            </div>
 
             <div class="about__values">
               <div class="about__value">
@@ -307,22 +308,53 @@
             </div>
           </div>
         </div>
+
+        <div class="about__director reveal">
+          <div class="about__director-header">
+            <h3 class="about__director-name">Dra. Elsa Martins</h3>
+            <span class="about__director-role">Diretora Clínica · Membro da Ordem dos Fisioterapeutas</span>
+          </div>
+          <div class="about__director-grid">
+            <p class="about__director-bio">
+              Com carreira iniciada em 2007, traz uma abordagem multifacetada ao cuidado
+              com a saúde e o bem-estar. Após quatro anos em Inglaterra, retornou a Portugal
+              com uma visão global e inovadora para a Fisioterapia.
+            </p>
+            <p class="about__director-bio">
+              Formada em Fisioterapia, Personal Training, Fitness e Pilates Clínico,
+              fundou o seu estabelecimento em 2020 e dedica-se também à formação de
+              futuros profissionais na área.
+            </p>
+          </div>
+          <p class="about__curiosities-text">
+            <strong>Curiosidades:</strong> Adora sorrisos sinceros, não resiste a um abraço apertado,
+            apaixonada pela família e pelo lado simples da vida.
+          </p>
+        </div>
       </div>
     </section>
 
-    <!-- ERS Banner -->
+    <!-- ERS & Legal Logos -->
     <section class="ers reveal">
-      <div class="container ers__inner">
-        <div class="ers__badge">
-          <span class="ers__star">★</span>
-          <span class="ers__label">ERS</span>
+      <div class="container">
+        <div class="ers__inner">
+          <div class="ers__badge">
+            <span class="ers__star">★</span>
+            <span class="ers__label">ERS</span>
+          </div>
+          <p class="ers__text">
+            Registo na Entidade Reguladora da Saúde (Decreto-Lei n.º 126/2014).
+            Todos os nossos serviços são prestados por profissionais qualificados
+            e devidamente registados, garantindo segurança, excelência e conformidade
+            com a legislação do mercado de saúde em Portugal.
+          </p>
         </div>
-        <p class="ers__text">
-          Registo na Entidade Reguladora da Saúde (Decreto-Lei n.º 126/2014).
-          Todos os nossos serviços são prestados por profissionais qualificados
-          e devidamente registados, garantindo segurança, excelência e conformidade
-          com a legislação do mercado de saúde em Portugal.
-        </p>
+
+        <div class="legal-logos">
+          <img src="images/ordem.png" alt="Ordem dos Fisioterapeutas" width="220" height="60" loading="lazy">
+          <img src="images/IP.png" alt="Instituto Português do Desporto e Juventude, I. P." width="280" height="60" loading="lazy">
+          <img src="images/IEFP.png" alt="Instituto do Emprego e Formação Profissional, I. P." width="280" height="60" loading="lazy">
+        </div>
       </div>
     </section>
 
@@ -343,53 +375,270 @@
             <figure class="testimonial">
               <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
               <blockquote class="testimonial__quote">
-                «Profissionalismo exemplar e um cuidado que se sente desde o
-                primeiro momento. A Dra. Elsa dedicou tempo a compreender
-                profundamente a minha condição — a recuperação superou todas
-                as expectativas.»
+                Olá Elsa, foi um gosto muito grande conhecê-la pessoalmente, considerando uma excelente
+                profissional, de trato fácil, com uma capacidade, conhecimento e comportamento excecional.
+                Agradeço-lhe todo o seu empenho e dedicação com que me presenteou. Muito obrigada, excelente.
               </blockquote>
               <figcaption class="testimonial__author">
-                <span class="testimonial__name">Fernando Oliveira</span>
-                <span class="testimonial__meta">Utente · Reabilitação Desportiva</span>
+                <span class="testimonial__name">Normando Oliveira</span>
               </figcaption>
             </figure>
 
             <figure class="testimonial">
               <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
               <blockquote class="testimonial__quote">
-                «Um espaço acolhedor e uma equipa que transmite confiança.
-                O tratamento foi completamente personalizado e os resultados
-                foram visíveis nas primeiras semanas. Recomendo sem reservas.»
+                Ao fim de anos aos quais perdi a conta de tratamentos e várias intervenções no ombro esquerdo,
+                finalmente encontrei a minha solução. Procurei a Fisioterapeuta Elsa numa altura em que achava
+                que tudo estava perdido e que nada nem ninguém me poderia acabar com o sofrimento diário que tinha,
+                as dores impediam-me de ter uma vida normal e de fazer coisas simples do dia-a-dia. Não tenho
+                palavras para agradecer tudo o que fez por mim, é uma profissional sem igual, dedicada, preocupada,
+                tem uma grande energia e acima de tudo, sabe o que faz. Recomendo a toda a gente. Obrigada por tudo.
               </blockquote>
               <figcaption class="testimonial__author">
-                <span class="testimonial__name">Maria da Graça Ramos</span>
-                <span class="testimonial__meta">Utente · Fisioterapia Reumatológica</span>
+                <span class="testimonial__name">Maria da Graça Soares</span>
               </figcaption>
             </figure>
 
             <figure class="testimonial">
               <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
               <blockquote class="testimonial__quote">
-                «Depois de anos com dores crónicas, finalmente encontrei
-                profissionais que me ouviram de verdade. A abordagem integrada
-                — fisioterapia e pilates clínico — fez toda a diferença.»
+                Sem dúvida uma excelente profissional e competente, obrigada pela paciência, dedicação, simpatia,
+                boa disposição, atendimento, persistência, esforço para a minha recuperação, a qual estava a ser
+                difícil mas com a tua ajuda, o joelho está pronto para novas aventuras. Não é preciso boas referências
+                mas sim a pessoa certa e sinceramente foste essa pessoa. Obrigada por tudo, sem dúvida vou recomendar
+                os teus serviços. Votos de muito sucesso.
               </blockquote>
               <figcaption class="testimonial__author">
                 <span class="testimonial__name">Célia Castro</span>
-                <span class="testimonial__meta">Utente · Pilates Clínico</span>
               </figcaption>
             </figure>
 
             <figure class="testimonial">
               <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
               <blockquote class="testimonial__quote">
-                «Recuperação pós-cirúrgica conduzida com uma precisão e dedicação
-                raras. Senti-me sempre seguro e bem acompanhado. A clínica
-                reflecte exactamente a qualidade do serviço prestado.»
+                Durante um mês de tratamentos, não só conheci uma excelente profissional, dedicada, conselheira e
+                comunicativa, como também conheci uma pessoa impecável, sempre com boa disposição e com a capacidade
+                de promover em qualquer cidadão o bem-estar físico, psicológico e social. Como é óbvio, tenho que
+                agradecer por toda a persistência, preocupação e pelos serviços prestados, pois tratar de um jovem
+                que nem sempre nos ouve não é fácil, no entanto, com um esforço mútuo conseguimos alcançar o resultado
+                desejado. Recomendo claramente a qualquer um!
               </blockquote>
               <figcaption class="testimonial__author">
                 <span class="testimonial__name">Emanuel Silva</span>
-                <span class="testimonial__meta">Utente · Reabilitação Pós-Cirúrgica</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                A vida está recheada de surpresas, umas mais agradáveis que outras e tu és sem dúvida uma das melhores
+                que já tivemos. Conhecer-te foi um mero acaso, associado a algo menos bom, pois precisar da tua
+                intervenção profissional só pode estar relacionado com algum problema de saúde, contudo ainda bem que
+                foste tu a escolhida para tratar do nosso bebé Rodrigo, por saber que contigo ele está em boas mãos
+                e que tratas dele como se fosse teu. Os amigos são a família que podemos escolher e por isso assim te
+                considero. És um ser humano incrível. Por muitos «obrigadas» que te possa dizer jamais chegarão para
+                agradecer todo o carinho, dedicação e profissionalismo que tens comigo e com o Rodrigo. Obrigada por tudo!
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Joana Assunção</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                Em caso de necessidade de tratamento não marquem com a Ft. Elsa Martins pelos seguintes motivos:
+                demasiado curiosa, sempre a perguntar se fizemos os exercícios para casa; demasiado atenciosa,
+                preocupa-se com o bem-estar dos doentes; demasiado profissional, com explicações elaboradas e bem
+                detalhadas dos tratamentos; demasiado exigente, sempre em busca do tratamento eficaz. Por tudo isto
+                e para vosso bem, aconselho a que não marquem, caso contrário fico sem horário disponível para mim!
+                Elsa, obrigada!
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">André Ferreira</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                «Everything happens for a reason» — depois de passar por uma série de médicos e fisioterapeutas,
+                eis que encontro «a minha fisioterapeuta». A única que disse que não necessitava de ser operado,
+                que pegou no meu joelho e meteu-se ao trabalho, que de todas as dificuldades que tive no tratamento
+                nunca me abandonou, o meu muito obrigado!!
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Marco Pinto</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                Sem dúvida falamos de uma grande profissional. Com um espaço super agradável e adequado. Dedicada,
+                compreensiva e muito profissional. Da minha parte só tenho de agradecer, o meu muito obrigada.
+                Costumo dizer que o melhor marketing são os clientes e pode crer que vou aconselhar!!!
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Hugo Almeida</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                Querida fisioterapeuta, adorei o teu profissionalismo, obrigada por teres insistido comigo apesar
+                de muito suor e algumas lágrimas mas foi por uma boa causa! Eu já não tinha uma vida normal, sempre
+                com muitas dores e sem força mas tu conseguiste a mudança e agradeço-te por seres tão carinhosa,
+                dedicada e atenciosa, sempre preocupada com o meu estado, eu não me esqueço que além de fisioterapeuta
+                foste amiga. És exemplar, muito obrigada.
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Helena Gomes</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                A ti Elsa Martins agradeço do fundo do coração toda a paciência e empenho comigo durante estas sessões.
+                Recomendo até à pessoa mais saudável. Todo o sucesso deve-se ao profissionalismo e à excelente pessoa
+                que és. Obrigada por tudo.
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Tiago Nabais</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                Elsa, começo por agradecer a quem me falou de ti, pois foi assim que encontrei a solução para os
+                problemas que me impediam de trabalhar e até descansar sem dores. Quero, portanto, deixar aqui o meu
+                reconhecimento e agradecimento a uma profissional que marca, claramente, a diferença na sua área pelo
+                empenho e dedicação que demonstrou em todos os tratamentos a que me submeti e que produziram resultados
+                excepcionais! Obrigada Elsa, também pela tua boa-disposição, pois és uma pessoa com que se estabelece,
+                desde logo, uma empatia que em todo o processo ajuda muito!
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">David Coutinho</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                Olá Elsa, foi um privilégio ter-te conhecido! Sinceramente, nada acontece por acaso. Ao longo destes
+                meses, mostraste sempre ser uma excelente profissional e amiga, sempre disponível e com boa disposição.
+                Muito obrigada pelo milagre que fizeste, o meu glúteo jamais será o mesmo! Tu nunca desistes nem deixas
+                que eu desistisse, recomendarei sempre o teu trabalho. Um beijinho enorme.
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Diana Cunha</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                «Para termos força é preciso equilíbrio, para termos postura é preciso disciplina, para termos saúde
+                é preciso prevenção, faça Fisioterapia!» Obrigada Elsa, pelo profissionalismo, encorajamento e reconforto
+                que sempre manifestou ao longo das minhas sessões de fisioterapia, num espaço acolhedor e ambiente
+                fantástico! Bem Haja, por me livrar das noites mal dormidas e pelo sucesso do tratamento! Prometo voltar
+                sempre! Beijinho enorme!
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Maria Clara Ferreira</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                O que dizer sobre a profissional Elsa Martins? Digo que faz milagres. São mãos de uma profissional que
+                dá tudo pelo seu cliente, é muito dedicada e demonstra um enorme gosto pelo que faz. Um bem haja e que
+                Deus lhe dê sempre esta força para proporcionar uma melhor qualidade de vida às pessoas. Obrigada não
+                chega, teria muito mais para dizer mas aqui vai o meu sincero muito e reconhecido obrigada!
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Ana Paula Alves</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                Espaço fantástico, amplo, versátil e muito bonito. Todo o material e equipamentos em óptimas condições.
+                A Dra. Elsa é uma óptima profissional, muito atenciosa e preocupada, não só com o bem-estar do cliente
+                mas também em explicar o problema e o tratamento que sugere aplicar. Resultados imediatos, saio com a
+                certeza que na próxima preocupação já sei em quem confiar. Impecável.
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Rui Costa</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                No pós-operatório de cirurgia de varizes a laser, fiquei com fibrose em toda a zona da coxa, que me
+                causava dores terríveis. Após tratamento falhado de fisioterapia na clínica onde fui operada, e quando
+                já estava sem qualquer esperança de melhoria, iniciei tratamentos semanais de fisioterapia com a Elsa,
+                e posso dizer que hoje, ao fim de dois meses, e seguindo o plano de tratamento personalizado que a Elsa
+                recomendou, a fibrose desapareceu completamente! Recomendo a todos, a melhor profissional de fisioterapia
+                que conheci.
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Suzanna Resende</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                A fisioterapia está no ser desta profissional com excelentes diagnósticos, tratamentos extremamente
+                eficazes e apesar da dor inerente aos mesmos tem sempre uma palavra amiga e de carinho com os pacientes.
+                A minha utilização foi bastante vasta com resultados sempre animadores e eficazes.
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Augusto Pereira</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                Recomendo, recomendo e volto a recomendar!! No fim da primeira sessão saí como nova, ao fim de semanas
+                em que mais parecia uma velhinha de 80 anos, com dores terríveis na lombar e já tinha tentado de tudo!
+                Para além disso, fui muito bem tratada! A Elsa é uma excelente profissional e muito querida.
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Paula Bastos</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                Quero neste momento partilhar o meu agradecimento pelo mérito alcançado no meu tratamento fisioterapéutico,
+                executado com todo o empenho, esforço, dedicação e eficácia pela Dra. Elsa Martins na sua Clínica.
+                Faço-o com todo o reconhecido orgulho e gratidão, pois só na sua clínica encontrei o tratamento adequado
+                e eficaz para a resolução dos meus problemas músculo-esqueléticos, finalmente! Bem Haja.
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Elsa Soares</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial">
+              <div class="testimonial__stars" aria-label="5 estrelas">★★★★★</div>
+              <blockquote class="testimonial__quote">
+                Após ir assiduamente às consultas de acupuntura, verifico uma redução da inflamação das articulações
+                bem como um alívio natural da dor. Neste momento estou a conseguir relaxar e equilibrar naturalmente
+                a dor generalizada bem como as dores musculares. Recomendo a todos.
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="testimonial__name">Margarida Conceição</span>
               </figcaption>
             </figure>
 
@@ -402,13 +651,19 @@
             <div class="testimonials__counter" id="testimonial-counter">
               <span id="testimonial-current">01</span>
               <span class="testimonials__counter-sep">/</span>
-              <span id="testimonial-total">04</span>
+              <span id="testimonial-total">20</span>
             </div>
             <button class="testimonials__btn" id="testimonial-next" aria-label="Próximo testemunho">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg>
             </button>
           </div>
         </div>
+
+        <p class="testimonials__google reveal">
+          <a href="https://www.google.com/search?hl=pt&gl=PT&q=Unidade+Privada+de+Fisioterapia+Dra.+Elsa+Martins+Cr%C3%ADticas#lkt=LocalPoiReviews" target="_blank" rel="noopener noreferrer">
+            Ver críticas no Google →
+          </a>
+        </p>
       </div>
     </section>
 
@@ -419,15 +674,15 @@
           <span class="section__eyebrow">Contacto</span>
           <h2 class="section__title">Fale Connosco</h2>
           <p class="section__desc">
-            Estamos disponíveis para esclarecer as suas dúvidas e agendar
-            a sua consulta privada.
+            Estamos disponíveis para esclarecer as suas dúvidas e responder
+            ao seu pedido de contacto.
           </p>
         </header>
 
         <div class="contact__grid reveal">
           <div class="contact__info">
             <div class="contact__actions">
-              <a href="https://wa.me/351913107055?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20privada." class="contact__action contact__action--whatsapp" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/351913107055?text=Olá,%20gostaria%20de%20entrar%20em%20contacto." class="contact__action contact__action--whatsapp" target="_blank" rel="noopener noreferrer">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                 WhatsApp
               </a>
@@ -456,8 +711,8 @@
               <div class="contact__detail">
                 <span class="contact__detail-label">Redes Sociais</span>
                 <div class="contact__social">
-                  <a href="https://www.facebook.com/draelsamartinsfisioterapeuta" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a>
-                  <a href="https://www.instagram.com/draelsamartinsfisioterapeuta" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
+                  <a href="https://www.facebook.com/elsamartinsfisioterapeuta" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a>
+                  <a href="https://www.instagram.com/elsamartinsfisioterapeuta" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
                 </div>
               </div>
             </div>
@@ -503,13 +758,12 @@
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
-        <span class="footer__logo">Dra. Elsa Martins</span>
-        <span class="footer__tag">Fisioterapeuta · São João da Madeira</span>
+        <img src="images/logo.png" alt="Dra. Elsa Martins" width="100" height="100">
       </div>
       <div class="footer__links">
-        <a href="#">Política de Privacidade</a>
-        <a href="#">Termos e Condições</a>
-        <a href="#">Livro de Reclamações</a>
+        <a href="politica-privacidade.html">Política de Privacidade</a>
+        <a href="termos-condicoes.html">Termos e Condições</a>
+        <a href="https://livroreclamacoes.pt" target="_blank" rel="noopener noreferrer">Livro de Reclamações</a>
       </div>
       <p class="footer__copy">&copy; 2026 Dra. Elsa Martins. Todos os direitos reservados.</p>
     </div>
